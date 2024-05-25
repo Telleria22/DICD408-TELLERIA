@@ -17,6 +17,10 @@ print(wine_quality_data.head())
 
 ##
 
+#loading 
+##saving the transformed data as a cvs file (guardar los datos )
+wine_data.to_csv('wine_dataset.csv', index = False)
+wine_quality_data.to_csv('wine_quality_dataset.csv', index = False)
 
 
 
